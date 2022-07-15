@@ -1,0 +1,391 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Thu Jul 14 23:51:50 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `Makefile', line 2)
+INCLUDES = -I/usr/X11/include/GL
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/martinlusinyan/Desktop/GhostRacer
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/7c/24_dvhv13cj5cdk8x4608yt40000gn/T/vscode-ipc-4ad4cc8b-1937-4e93-a653-21d47ab747cb.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /Users/martinlusinyan/opt/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.BDMIi5aBcv/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/martinlusinyan/Desktop/GhostRacer
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `Makefile', line 12)
+PRODUCT = GhostRacer
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/martinlusinyan
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/martinlusinyan/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = martinlusinyan
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from `Makefile', line 8)
+HEADERS = $(wildcard *.h)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 1)
+CC = g++
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = martinlusinyan
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 5)
+CCFLAGS = -Wno-deprecated-declarations
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# makefile (from `Makefile', line 4)
+STD = -std=c++17
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/7c/24_dvhv13cj5cdk8x4608yt40000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/martinlusinyan/Library/Application Support/Code/1.67.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.452227.452235
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 3)
+LIBS = -L/usr/X11/lib -lglut -lGL -lGLU
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# makefile (from `Makefile', line 7)
+OBJECTS = $(patsubst %.cpp, %.o, $(wildcard *.cpp))
+# environment
+LANG = C
+# environment
+VSCODE_PID = 34633
+# variable set hash-table stats:
+# Load=70/1024=7%, Rehash=0, Collisions=1/104=1%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777233, inode 4611722): 19 files, no impossibilities.
+
+# 19 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.cpp Actor.h GameConstants.h GameController.h GameWorld.h GraphObject.h SoundFX.h SpriteManager.h StudentWorld.h
+#  commands to execute (from `Makefile', line 17):
+	$(CC) -c $(STD) $(CCFLAGS) $(INCLUDES) $< -o $@
+	
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+Actor.h:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2021-02-13 16:33:00
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+all: GhostRacer
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+.PHONY: default all clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GraphObject.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-02-13 16:32:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Actor.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-02-13 16:33:00
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-02-15 13:07:52
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+StudentWorld.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GameController.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+GhostRacer: Actor.o GameController.o GameWorld.o StudentWorld.o main.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  commands to execute (from `Makefile', line 20):
+	$(CC) $(OBJECTS) $(LIBS) -o $@
+	
+
+# Not a target:
+GameWorld.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GameConstants.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-02-15 04:47:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+default:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+SpriteManager.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-02-15 00:20:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+SoundFX.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-02-13 16:32:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Actor.o: Actor.cpp Actor.h GameConstants.h GameController.h GameWorld.h GraphObject.h SoundFX.h SpriteManager.h StudentWorld.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `Actor'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := Actor.o
+# automatic
+# % := 
+# automatic
+# * := Actor
+# automatic
+# + := Actor.cpp Actor.h GameConstants.h GameController.h GameWorld.h GraphObject.h SoundFX.h SpriteManager.h StudentWorld.h
+# automatic
+# | := 
+# automatic
+# < := Actor.cpp
+# automatic
+# ^ := Actor.cpp Actor.h GameConstants.h GameController.h GameWorld.h GraphObject.h SoundFX.h SpriteManager.h StudentWorld.h
+# automatic
+# ? := Actor.cpp Actor.h GameConstants.h GameController.h GameWorld.h GraphObject.h SoundFX.h SpriteManager.h StudentWorld.h
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/16=6%
+#  commands to execute (from `Makefile', line 17):
+	$(CC) -c $(STD) $(CCFLAGS) $(INCLUDES) $< -o $@
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 23):
+	rm -f *.o
+	rm -f $(PRODUCT)
+	
+
+# Not a target:
+StudentWorld.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-02-13 16:33:00
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GameController.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-02-13 16:32:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+GameWorld.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-02-13 16:32:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=22/1024=2%, Rehash=0, Collisions=0/63=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Thu Jul 14 23:51:50 2022
+
+ 

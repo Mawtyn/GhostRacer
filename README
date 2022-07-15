@@ -1,0 +1,5 @@
+This is how to build GhostRacer in a macOS Terminal window, assuming you've
+already installed XQuartz and freeGLUT:
+
+1.  To run the program, type
+	./GhostRacer

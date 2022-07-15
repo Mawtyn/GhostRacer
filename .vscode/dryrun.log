@@ -1,0 +1,10 @@
+make: Entering directory `/Users/martinlusinyan/Desktop/GhostRacer'
+g++ -c -std=c++17 -Wno-deprecated-declarations -I/usr/X11/include/GL Actor.cpp -o Actor.o
+ 
+g++ -c -std=c++17 -Wno-deprecated-declarations -I/usr/X11/include/GL GameController.cpp -o GameController.o
+g++ -c -std=c++17 -Wno-deprecated-declarations -I/usr/X11/include/GL GameWorld.cpp -o GameWorld.o
+g++ -c -std=c++17 -Wno-deprecated-declarations -I/usr/X11/include/GL StudentWorld.cpp -o StudentWorld.o
+g++ -c -std=c++17 -Wno-deprecated-declarations -I/usr/X11/include/GL main.cpp -o main.o
+g++  Actor.o  GameController.o  GameWorld.o  StudentWorld.o  main.o -L/usr/X11/lib -lglut -lGL -lGLU -o GhostRacer
+make: Leaving directory `/Users/martinlusinyan/Desktop/GhostRacer'
+ 
