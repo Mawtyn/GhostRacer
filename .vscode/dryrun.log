@@ -1,6 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/martinlusinyan/Desktop/GhostRacer'
 g++ -c -std=c++17 -Wno-deprecated-declarations -I/usr/X11/include/GL Actor.cpp -o Actor.o
- 
 g++ -c -std=c++17 -Wno-deprecated-declarations -I/usr/X11/include/GL GameController.cpp -o GameController.o
 g++ -c -std=c++17 -Wno-deprecated-declarations -I/usr/X11/include/GL GameWorld.cpp -o GameWorld.o
 g++ -c -std=c++17 -Wno-deprecated-declarations -I/usr/X11/include/GL StudentWorld.cpp -o StudentWorld.o

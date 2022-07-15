@@ -8,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This program built for i386-apple-darwin11.3.0
  
 
-# Make data base, printed on Thu Jul 14 23:51:50 2022
+# Make data base, printed on Fri Jul 15 00:10:43 2022
 
 # Variables
 
@@ -41,7 +41,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/7c/24_dvhv13cj5cdk8x4608yt40000gn/T/vscode-ipc-4ad4cc8b-1937-4e93-a653-21d47ab747cb.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/7c/24_dvhv13cj5cdk8x4608yt40000gn/T/vscode-ipc-3e945a8b-117d-431b-85da-9c7b0facc340.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -161,9 +161,9 @@ VSCODE_PID = 34633
 
 # Directories
 
-# . (device 16777233, inode 4611722): 19 files, no impossibilities.
+# . (device 16777233, inode 4611722): 21 files, no impossibilities.
 
-# 19 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -179,8 +179,7 @@ VSCODE_PID = 34633
 # Not a target:
 Actor.h:
 #  Implicit rule search has been done.
- 
-#  Last modified 2021-02-13 16:33:00
+#  Last modified 2021-02-27 16:17:57
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -213,7 +212,7 @@ GraphObject.h:
 # Not a target:
 Actor.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2021-02-13 16:33:00
+#  Last modified 2021-02-27 16:17:57
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -255,6 +254,7 @@ GhostRacer: Actor.o GameController.o GameWorld.o StudentWorld.o main.o
 # Load=0/32=0%, Rehash=0, Collisions=0/6=0%
 #  commands to execute (from `Makefile', line 20):
 	$(CC) $(OBJECTS) $(LIBS) -o $@
+ 
 	
 
 # Not a target:
@@ -343,7 +343,7 @@ clean:
 # Not a target:
 StudentWorld.h:
 #  Implicit rule search has been done.
-#  Last modified 2021-02-13 16:33:00
+#  Last modified 2021-02-27 16:17:57
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -386,6 +386,6 @@ GameWorld.h:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Thu Jul 14 23:51:50 2022
+# Finished Make data base on Fri Jul 15 00:10:43 2022
 
  
